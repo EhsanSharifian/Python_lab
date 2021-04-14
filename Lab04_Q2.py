@@ -5,13 +5,18 @@
 # 2.1
 import random
 
-while 1:
-    a = input("Press Enter to continue")
-    if a == "end":
-        break
-    else:
-        print(random.randint(1, 6))
+#while 1:
+#    a = input("Press Enter to continue")
+#    if a == "end":
+#        break
+#    else:
+#        print(random.randint(1, 6))
 
+import msvcrt
+
+while True:
+    msvcrt.getch()
+    print(random.randint(1, 6))
 
 
 # 2.2
