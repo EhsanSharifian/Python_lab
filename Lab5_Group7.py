@@ -341,5 +341,5 @@ regex = '^#.*\n?'
 
 with open("./files/sqspell.php", 'r') as file:
     for line in file.readlines():
-        print(re.sub(regex, '', line, flags=re.MULTILINE))
+        print(re.sub(regex, '', line))
 
